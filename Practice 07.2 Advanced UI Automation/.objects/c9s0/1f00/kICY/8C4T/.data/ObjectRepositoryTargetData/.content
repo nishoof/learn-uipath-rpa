@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w2C3rFNye0ejtxXbq7VgJg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvElementArea="908, 561, 100, 57" CvTextArea="924, 577, 67, 23" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="911, 563, 95, 53" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='openModalUser' tag='BUTTON' type='button' class='btn btn-primary btn-user' aaname='Close' check:innerText='Close' /&gt;" Guid="627739df-a130-400e-815a-d3a5fb0ecd2b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2cfbc6620e7788fea51b6ff484ba913c.png" xmlns="">0ZBHk1SZ2fU69zLsyQy7tCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="LnQQJRG_-Ue99PkOKrIekQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADkSURBVDhPY2CAAvNjFwTMj114b37swn8S8HuYfpgB6ArA2PTw2f+Ky9b+l5q9EIxBbJAYSA5uANQQDM0gDNLA39L5nzmnAIxBbJAY2ADm5vb3zM3t//FhllaEZhgGucT44CmwARgasGFGSxsMA2AugCs68ODhf2TgtGgpXI7dyQWnF1AMaDx4GMN2EBYMDsMeiOgGwAxBN0g6OQMjcLEa8ODDB7hByHKMZhYYAQnCGAag20w1A3h9A+BhAMJYDcCH8RlAMCEx1zXhNgAZgPyJC4uUVBI2AD2AiMHoBrxHV0AAvwcAkuYXI9ztKrsAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" Title="Advanced UI Automation Input Form" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dURUExUkxKRk5PNDY0WUJaREhRS1Y2VFJTWC4u" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="1b1c542d16c5348fce75f2738651242c.jpg" xmlns="">0s2edelKxUUaJZuQwWcyh1Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

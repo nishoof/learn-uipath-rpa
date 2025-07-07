@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome ACME System 1 - Employees",
+  "Type": "Screen",
+  "Id": "kICYF3bN6EySxRClVEjAMQ",
+  "Reference": "lu6HTk2JCUOj--pHiQAikg/kICYF3bN6EySxRClVEjAMQ",
+  "ParentRef": "lu6HTk2JCUOj--pHiQAikg/1f00jAP2s0iVJIIf1qT3pg",
+  "Created": "2025-07-07T18:23:40.6831185Z",
+  "Updated": "2025-07-07T18:23:40.6831185Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

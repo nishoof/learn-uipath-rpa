@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ACME System 1 - Employees",
+  "Type": "App",
+  "Id": "c9s0qQ0CJE6OZdCGrY5o3g",
+  "Reference": "lu6HTk2JCUOj--pHiQAikg/c9s0qQ0CJE6OZdCGrY5o3g",
+  "Created": "2025-07-07T18:23:40.6318568Z",
+  "Updated": "2025-07-07T18:23:40.6318568Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Advanced UI Automation Input Form",
+  "Type": "App",
+  "Id": "-DayE4CGSkeZ6lD0ELdLNA",
+  "Reference": "lu6HTk2JCUOj--pHiQAikg/-DayE4CGSkeZ6lD0ELdLNA",
+  "Created": "2025-07-07T18:33:33.8386763Z",
+  "Updated": "2025-07-07T18:33:33.8386763Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

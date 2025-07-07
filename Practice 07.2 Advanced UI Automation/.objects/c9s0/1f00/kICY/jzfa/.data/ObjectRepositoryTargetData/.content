@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VxlN5BBby0an77XHa5t1Bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvTextArea="976, 389, 176, 22" CvType="AnyWordGroup" DesignTimeRectangle="959, 383, 277, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card_name' tag='DIV' type='' class='col-md-6 value' /&gt;" Guid="a008a954-d26e-43f3-90f8-8f722978a940" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvTextArea="862, 389, 76, 22" CvTextArgument="Name:" CvType="Text" DesignTimeRectangle="681, 383, 278, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='col-md-6' aaname='Name:' check:innerText='Name:' /&gt;" Guid="b4d00c65-724e-4faa-b919-cd7197587802" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="92911d47e5081d3720aa06ecbbacfafd.png" xmlns="">0gurSzIJDMEC3uEZkxXYO8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M3MvECNwG06n8nrwzPNOQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvElementArea="460, 443, 1021, 44" CvType="InputBox" DesignTimeRectangle="461, 445, 1020, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="1154af76-1555-4be5-bbb3-d530a222aec9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvTextArea="460, 397, 56, 18" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="460, 392, 1021, 28" FuzzySelectorArgument="&lt;webctrl class='-O-54' tag='DIV' type='' aaname='' check:innerText='1.&amp;#xA;Name' /&gt;" Guid="ad626d7d-a4a0-4656-8e41-f06e33cebede" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f2286ffe205dfe492d72c2296eb8a7f4.png" xmlns="">0U8-HtpDLO0qgOaeIa6wxHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

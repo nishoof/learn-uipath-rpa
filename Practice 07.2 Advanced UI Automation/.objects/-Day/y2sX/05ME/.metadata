@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Advanced UI Automation Input Form",
+  "Type": "Screen",
+  "Id": "05MEKbkgZkK4dVqID8JRPQ",
+  "Reference": "lu6HTk2JCUOj--pHiQAikg/05MEKbkgZkK4dVqID8JRPQ",
+  "ParentRef": "lu6HTk2JCUOj--pHiQAikg/y2sXN1ybh0q8Ptsb-fs-qw",
+  "Created": "2025-07-07T18:33:33.9781426Z",
+  "Updated": "2025-07-07T18:33:33.9781426Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

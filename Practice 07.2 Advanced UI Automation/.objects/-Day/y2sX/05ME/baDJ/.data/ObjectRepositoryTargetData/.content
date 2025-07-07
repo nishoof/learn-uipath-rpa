@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BsNUwkjsIkSnAzAWq9mW9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="e8cf7050-c792-48f6-9f36-b5edf5b99cb6" CvElementArea="433, 613, 114, 54" CvTextArea="460, 631, 61, 18" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="436, 615, 109, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='css-180' tag='BUTTON' type='' aaname='Submit' check:innerText='Submit' /&gt;" Guid="d10a5eba-c6e8-4c2d-b3a1-215f82a1430d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3661f0e28a64c6ee15ff31aab3808eba.png" xmlns="">0CbM7h7BJvEeHErB_xgffqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

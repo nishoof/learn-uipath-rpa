@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="53qMViWn_Ee3g3CkJHolJA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvElementArea="459, 807, 1021, 46" CvType="InputBox" DesignTimeRectangle="461, 809, 1020, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r48de342bdb1e45539f81a1cd62ac7760 QuestionInfo_r48de342bdb1e45539f81a1cd62ac7760' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="2bc5ff2c-3e3b-41ef-b6ff-d6c92b1c5d3a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvTextArea="459, 760, 87, 20" CvTextArgument="Birthdate" CvType="Text" DesignTimeRectangle="460, 756, 1021, 28" FuzzySelectorArgument="&lt;webctrl class='-O-54' type='' tag='DIV' aaname='' check:innerText='3.&amp;#xA;Birthdate' /&gt;" Guid="fcbf6a30-edbe-4fcc-8fdf-4be0a5260ffa" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="371114ff0c939912ced45b67044272af.png" xmlns="">08orB_PkwP0ajk-UvIgzM8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

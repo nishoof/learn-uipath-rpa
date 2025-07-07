@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="azy99J1aREu9SzlUHvcI0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ded1aadf-f6b4-4494-a70e-eeda063eeae4" CvTextArea="860, 609, 196, 19" CvTextArgument="Submit another response" CvType="Text" DesignTimeRectangle="861, 605, 195, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Submit another response' tag='SPAN' type='' class='' check:innerText='Submit another response' /&gt;" Guid="a0314322-d547-4e7e-84ee-49fd25f924e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cb033fd40583209096b08565b2754913.png" xmlns="">0NgJB0bAoEUe_JIgQy1BuAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

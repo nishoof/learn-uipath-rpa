@@ -1,0 +1,368 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="892.0000000000001,3652.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="CandidateName" />
+      <Variable x:TypeArguments="x:String" Name="CandidatePhone" />
+      <Variable x:TypeArguments="x:String" Name="CandidateBirthdate" />
+      <Variable x:TypeArguments="x:String" Name="CandidateEmail" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME System 1 - Employees" sap:VirtualizedContainerService.HintSize="449.6,1738.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1489.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Close''" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="116024d3-3a99-4f4a-ae33-c1efc27e0c18" CvElementArea="908, 329, 100, 56" CvTextArea="924, 345, 67, 22" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="911, 331, 95, 52" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl id='refreshBtn' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='refreshBtn' tag='BUTTON' type='button' class='btn btn-primary' aaname='Close' check:innerText='Close' /&gt;" Guid="43daa5b1-6833-4e25-8815-328a4a8b863e" InformativeScreenshot="b3bfc900fab155f8e81a1a923649c62d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Home Employees''" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="e9bfa197-7852-4c87-b096-ac2dc356d130" CvElementArea="790, 444, 57, 45" CvType="Icon" DesignTimeRectangle="794, 446, 49, 45" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='far fa-address-card card' aaname='' /&gt;" Guid="513db111-cd5c-487c-abb2-59de515287bb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAAxCAYAAAB6d+FmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJNSURBVGhD7ZlBa6NAFMf7nXISCoE9bi+bk/TQUyAQCpVCQ08LK3uQPcheuhBy0oPkYqH0sAQCHoKB0oXFQhEKQmFgYUDwK/wX24Z0HE1MHEm0Hn6X8N5zfjiOL76DKIpQNw6SP9SBRqoqfACpkMD7bUC77EI+liuAAnVowX3Kkgp92OdttFqt6nEoQ59RXso3T/jgKnGowqGMlAfjOCWwYqiT17v1JuVCYwJkaNcOnOl+MzpnpfrjYJVUH1bi4dtH3B+NVCOFKKTw75Z7/f5xebyWSWlSZD5C9xNbPKbdu4IT8PEiKUWKzjR0EjIMXzS4//g8UYiXoi60zykiCaSLW5Bk7jv8sZLS/qTQ0+EQNle4FLkZcALprKoVwOon47PRZmy+cKn7X0fcRbNILmYJhfNd4uLTOYHxyObvqVQxhEuJ2X7FEC4l6qCIKAF5zgP/7hMvJeRIJ7i9SMlL5QhXf9j8UqRi6F2Rl28A+5TPTUeCPmfzS5N6oUCbRP7aMH7q0NcwGjvw3/4ELihXakc0UuukyIMDa6hh0JOhfBvBmnoIFqdTSEGePLjXBtQzGfKZCt2cwHvm68Tsvk2Kvzh9lSExsXlpQzE9UKbmrtuk0Id1mrelyUJC1/Te1d1xm0Sn6pZ3KIkCO2MrbkphqWSBIgxuCLfAbUiuaUOpTV6S61lcvCiNFC8VwRt2uMVtRwf6PH/HsYrCUi8TkdkE1pBvYXJj2nAfxDxPMcWl9pBGqqZStZh61HI+VctJYk1nvq9idZvO14hGqio0UlXhP9MFTCTDIjzDAAAAAElFTkSuQmCC" InformativeScreenshot="b1de65c28093cd71124d0b7321bda26e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="e9bfa197-7852-4c87-b096-ac2dc356d130" CvElementArea="243, 314, 1428, 46" CvType="InputBox" DesignTimeRectangle="246, 316, 1425, 45" FullSelectorArgument="&lt;webctrl tag='OL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='OL' type='' class='breadcrumb' aaname='                                                                                                                                                                                                                                                                                                   ' check:innerText='Home Employees' /&gt;" Guid="f18418dc-1425-43dd-a449-09e57f28d7dc" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Name'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" TextString="[CandidateName]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" ContentHash="VxlN5BBby0an77XHa5t1Bw" CvTextArea="976, 389, 176, 22" CvType="AnyWordGroup" DesignTimeRectangle="959, 383, 277, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card_name' tag='DIV' type='' class='col-md-6 value' /&gt;" Guid="a008a954-d26e-43f3-90f8-8f722978a940" InformativeScreenshot="92911d47e5081d3720aa06ecbbacfafd.png" Reference="lu6HTk2JCUOj--pHiQAikg/jzfacHO7AEOvT38ikrSS1g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvTextArea="862, 389, 76, 22" CvTextArgument="Name:" CvType="Text" DesignTimeRectangle="681, 383, 278, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='col-md-6' aaname='Name:' check:innerText='Name:' /&gt;" Guid="b4d00c65-724e-4faa-b919-cd7197587802" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Phone'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" TextString="[CandidatePhone]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" ContentHash="KAdyMrCCUUaQ26rXJo_ypA" CvTextArea="975, 431, 158, 22" CvType="AnyWordGroup" DesignTimeRectangle="959, 425, 277, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card_phone' tag='DIV' type='' class='col-md-6 value' /&gt;" Guid="0f678019-e9b2-4e76-9e0f-ba6d09891200" InformativeScreenshot="4a1d103c42e94a1f1a45fcba97591e5d.png" Reference="lu6HTk2JCUOj--pHiQAikg/E5XGFEBKaEeF5Vk_EwC-BQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvTextArea="854, 431, 85, 22" CvTextArgument="Phone:" CvType="Text" DesignTimeRectangle="681, 425, 278, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Phone:' tag='LABEL' type='' class='col-md-6' check:innerText='Phone:' /&gt;" Guid="38a570df-8418-4a7b-950c-a75eb6e94c94" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Birthdate'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" TextString="[CandidateBirthdate]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" ContentHash="P-iC58Z1fkObUEBu87zIuQ" CvTextArea="975, 472, 111, 22" CvType="AnyWordGroup" DesignTimeRectangle="959, 467, 277, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card_birthdate' tag='DIV' type='' class='col-md-6 value' /&gt;" Guid="7953c354-6f2b-4b25-a43e-2ff2094ae49e" InformativeScreenshot="5b67e73b5f191264b732089d478a674a.png" Reference="lu6HTk2JCUOj--pHiQAikg/jiiMDUp3RUKZ_-6q1miAFA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvTextArea="821, 472, 117, 22" CvTextArgument="Birthdate:" CvType="Text" DesignTimeRectangle="681, 467, 278, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Birthdate:' tag='LABEL' type='' class='col-md-6' check:innerText='Birthdate:' /&gt;" Guid="e50939e2-b6a1-4504-b02b-762bdefded44" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Email'" sap:VirtualizedContainerService.HintSize="382.4,189.6" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" TextString="[CandidateEmail]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" ContentHash="UK6JT2CaDku5rDfe8Bkv9A" CvTextArea="972, 515, 317, 27" CvType="AnyWordGroup" DesignTimeRectangle="959, 509, 277, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card_email' tag='DIV' type='' class='col-xs-6 value' /&gt;" Guid="1dbd7a38-c9c6-4fdf-a4a5-00952c6eed9d" InformativeScreenshot="3580f48541b4972b0962c709afa6de84.png" Reference="lu6HTk2JCUOj--pHiQAikg/VB5GHxzTyEWPbvdoY-_12Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" CvTextArea="864, 515, 75, 22" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="681, 509, 278, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='col-xs-6' tag='LABEL' type='' aaname='Email:' check:innerText='Email:' /&gt;" Guid="584e9ffb-105a-4eb1-815c-83044a268384" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="382.4,218.4" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8b182de0-6bef-4f1d-8bb9-9bd0c5d00661" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/employees" CVScreenId="df733203-de66-435e-9b92-ee171f56cf0e" ContentHash="w2C3rFNye0ejtxXbq7VgJg" CvElementArea="908, 561, 100, 57" CvTextArea="924, 577, 67, 23" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="911, 563, 95, 53" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='openModalUser' tag='BUTTON' type='button' class='btn btn-primary btn-user' aaname='Close' check:innerText='Close' /&gt;" Guid="627739df-a130-400e-815a-d3a5fb0ecd2b" InformativeScreenshot="2cfbc6620e7788fea51b6ff484ba913c.png" Reference="lu6HTk2JCUOj--pHiQAikg/8C4TXbQ8b0SHPR0EUvwvfg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="6NZz1nrLlUmlECg4aQ_pMQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAShSURBVFhHvdd7TFNXHAfw3wbr7NQ94hLnGImTbOJI/GeaZX9sYXMbM5mL8Q/3z2RGk4mbZhth5SVCebT1AmXjoZY9NAiCzJDoyPbHImAVevu6t71t54CWRxYqdEBFnCYE+C3nXm+53NBOsPWPb8gp9/T3yem55wGgYYZBw9wGDTP1iENqDgFoGAyljMS+0I567EIN6WegYYKhhtqGkG9GOGaJTfJJzAJCx9ecIIAp0DL8P9MueFsN3Pi+3Kv+jOwVRuyb1enPyDMKIW1Vlz9DS48dyOwYKYFSO0IxP9KTAoCIjltwT9vgDgM3DrlX/ZC9woh9szr9kGcUQtqqLj9o6THI7BgBxQkW4bgVQSsFFFvx3Wbv0VgDfnRObIkngCI5oMiKO1t9X0YLMDozv2lbras7tcVrkAIMzPirYQFpUQIg4vNxOgfCF0aEQ0Y81j16WQTozWPhAR/9sgBIrHPXKyknA2ob836rr1peSMzWn/4yQrHN+nSlk4srZQ6Svl0376bDwU6EKg7h624EHYsioMIcCA/YdXEBoCx33IUiG0K2Cbed7Q3IC4tJqHUj5JgQSmwIavuZ+wBI+uEGwpFrfNp8U+plA57RcyYosSPkmfHNxr4r8sJiNp3yzPLvtsaOz33HFUoAUNA5sieHDrzW5psKzYHTkebAIkAlZ5YAOuWFJYB58gwBrC53FskAkEMHYOzfucdEQL1jInYAhY4NATae9KCyxIZPUSwm1rmrREADNxllwGnPnAhQSkZgrd6J8K2JX4IVlIMSAU3u6ANCIyAFJNa5EQos/Ob2QrWrSAQ0RhuQFAbwEnk7CKDUjuu/XwHgWf0DA5b8CVYE+FgCWHXCYeF3rXwzbm/o65AXFpNc75nhAVp+r1c/FEC6Eq7VO91QbENQmXBHi/d3eWExiScXCq2udJY/FODt894Q4LPfhi/DNz0IWT34RlO/X15YTDzl5LdyyKaxmgkcFgEv1qwA8FbjAuCMZ/IQv5SSTSXfjL23Z16WF59H3Aq5NFmC+ddt6M7MBhGwvtq1fMB7LYsAoKxwIORahIcLrZh/7eb+cksgufnP4JacrhEVv1eUMghHruPrjX23hu7M8H0jjUBDJMCHku2YANr/nj4Mn14RzotkPmTTqKhwCu0sk3CGJEU+N2JwDj+QAhLJHCA/TZkdN1S7Cx9oBJYAwCftw3bI7EH4qlvoRHY+csAstCL5XKG24r4/RqjgHIIUAFoW4eh1fhJDKVMnApo9ywdA+8D09r1tA7+uoxy4hmIxXsdigp6bTr80eG743qxi+N4syAHvnO+/lVTjmt1s8GBqk1clAs5yETajCADY2zYA6ygHrKFYiNexkKDnIP3SIJDiYQCQVOOCzQYPpDZ5Q9vxKSYCIK3VFzqUxgrws2MiOSxgZ6tv1yMAwJPUUsfyAgvuvjhQduFGcGOVJZBSTi8ORQdSKulAis40yrcrl3jm/1LL/PMKRY/tjicTVG0NXUyEq1kZg3FaFldRDnxcyyIZpmjnCTL0GlZYO4TrIH81ExrkrkauS+T1IrpYRPxu2eW0nx8KDRPgo73/NxZZ/N2kZu9/PqMYP3lO0UYAAAAASUVORK5CYII=" InformativeScreenshot="c3defe4d9eb301ae8905a73a874a7bf7.jpg" Reference="lu6HTk2JCUOj--pHiQAikg/kICYF3bN6EySxRClVEjAMQ" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Employees' /&gt;" Title="ACME System 1 - Employees" Url="https://acme-test.uipath.com/employees" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Advanced UI Automation Input Form" sap:VirtualizedContainerService.HintSize="449.6,1891.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="44a0d193-0d4e-4008-b6b9-3cc31235f766" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1651.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '1.NameSingle line text.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="44a0d193-0d4e-4008-b6b9-3cc31235f766" Text="[CandidateName]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" ContentHash="M3MvECNwG06n8nrwzPNOQA" CvElementArea="460, 443, 1021, 44" CvType="InputBox" DesignTimeRectangle="461, 445, 1020, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="1154af76-1555-4be5-bbb3-d530a222aec9" InformativeScreenshot="f2286ffe205dfe492d72c2296eb8a7f4.png" Reference="lu6HTk2JCUOj--pHiQAikg/62Ik1feqT0SMRYbK15tG-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvTextArea="460, 397, 56, 18" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="460, 392, 1021, 28" FuzzySelectorArgument="&lt;webctrl class='-O-54' tag='DIV' type='' aaname='' check:innerText='1.&amp;#xA;Name' /&gt;" Guid="ad626d7d-a4a0-4656-8e41-f06e33cebede" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '2.PhoneSingle line text.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="44a0d193-0d4e-4008-b6b9-3cc31235f766" Text="[CandidatePhone]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" ContentHash="BHeJW6-WD0icf4ustjLdFQ" CvElementArea="460, 625, 1020, 45" CvType="InputBox" DesignTimeRectangle="461, 627, 1020, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r71ed2979f28440c98131d5c969bee18f QuestionInfo_r71ed2979f28440c98131d5c969bee18f' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="156e2dd1-35ef-47c5-b9aa-60cf25650980" InformativeScreenshot="0f38e66129414ccf2f5c3029ecae38d7.png" Reference="lu6HTk2JCUOj--pHiQAikg/ZBZFmc6RvEWXIJWwdhg_Dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvTextArea="460, 579, 58, 18" CvTextArgument="Phone" CvType="Text" DesignTimeRectangle="460, 574, 1021, 28" FuzzySelectorArgument="&lt;webctrl class='-O-54' type='' tag='DIV' aaname='' check:innerText='2.&amp;#xA;Phone' /&gt;" Guid="d86192e9-2b38-4b71-8723-934f0ae41051" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '3.BirthdateSingle line …'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="44a0d193-0d4e-4008-b6b9-3cc31235f766" Text="[CandidateBirthdate]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" ContentHash="53qMViWn_Ee3g3CkJHolJA" CvElementArea="459, 807, 1021, 46" CvType="InputBox" DesignTimeRectangle="461, 809, 1020, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r48de342bdb1e45539f81a1cd62ac7760 QuestionInfo_r48de342bdb1e45539f81a1cd62ac7760' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="2bc5ff2c-3e3b-41ef-b6ff-d6c92b1c5d3a" InformativeScreenshot="371114ff0c939912ced45b67044272af.png" Reference="lu6HTk2JCUOj--pHiQAikg/-P2U9MtOREG1oX6MKMjIgA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="ca0093a5-ef4c-49f8-b3e2-e92a749db7ee" CvTextArea="459, 760, 87, 20" CvTextArgument="Birthdate" CvType="Text" DesignTimeRectangle="460, 756, 1021, 28" FuzzySelectorArgument="&lt;webctrl class='-O-54' type='' tag='DIV' aaname='' check:innerText='3.&amp;#xA;Birthdate' /&gt;" Guid="fcbf6a30-edbe-4fcc-8fdf-4be0a5260ffa" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '4.EmailSingle line text.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="44a0d193-0d4e-4008-b6b9-3cc31235f766" Text="[CandidateEmail]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="e8cf7050-c792-48f6-9f36-b5edf5b99cb6" ContentHash="AUcMEjUNi0OrxpCbCcp46w" CvElementArea="460, 502, 1021, 45" CvType="InputBox" DesignTimeRectangle="461, 504, 1020, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r602e2374f6f24332b99a57f32c585300 QuestionInfo_r602e2374f6f24332b99a57f32c585300' tag='INPUT' type='' class='-a_-67' placeholder='Enter your answer' aaname='' /&gt;" Guid="2e51d9e7-7e94-4fc0-bed7-0efa83abaaa2" InformativeScreenshot="c41bec94c5e3bc89420f832da3bbb3d0.png" Reference="lu6HTk2JCUOj--pHiQAikg/4d1HaW4d1EuebJp6i_zqiw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="e8cf7050-c792-48f6-9f36-b5edf5b99cb6" CvTextArea="460, 455, 50, 20" CvTextArgument="Email" CvType="Text" DesignTimeRectangle="460, 451, 1021, 28" FuzzySelectorArgument="&lt;webctrl class='-O-54' type='' tag='DIV' aaname='' check:innerText='4.&amp;#xA;Email' /&gt;" Guid="95f70a35-7f6f-4955-9b62-371bb5f2fddc" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="382.4,225.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44a0d193-0d4e-4008-b6b9-3cc31235f766" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="e8cf7050-c792-48f6-9f36-b5edf5b99cb6" ContentHash="BsNUwkjsIkSnAzAWq9mW9w" CvElementArea="433, 613, 114, 54" CvTextArea="460, 631, 61, 18" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="436, 615, 109, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='css-180' tag='BUTTON' type='' aaname='Submit' check:innerText='Submit' /&gt;" Guid="d10a5eba-c6e8-4c2d-b3a1-215f82a1430d" InformativeScreenshot="3661f0e28a64c6ee15ff31aab3808eba.png" Reference="lu6HTk2JCUOj--pHiQAikg/baDJqJ-kqUyhACsj4pzKaA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit another response'" sap:VirtualizedContainerService.HintSize="382.4,218.4" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44a0d193-0d4e-4008-b6b9-3cc31235f766" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="forms.office.com/Pages/ResponsePage.aspx" CVScreenId="ded1aadf-f6b4-4494-a70e-eeda063eeae4" ContentHash="azy99J1aREu9SzlUHvcI0g" CvTextArea="860, 609, 196, 19" CvTextArgument="Submit another response" CvType="Text" DesignTimeRectangle="861, 605, 195, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Submit another response' tag='SPAN' type='' class='' check:innerText='Submit another response' /&gt;" Guid="a0314322-d547-4e7e-84ee-49fd25f924e1" InformativeScreenshot="cb033fd40583209096b08565b2754913.png" Reference="lu6HTk2JCUOj--pHiQAikg/cescVfKtVU6mtBgN9sOKrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="LnQQJRG_-Ue99PkOKrIekQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADkSURBVDhPY2CAAvNjFwTMj114b37swn8S8HuYfpgB6ArA2PTw2f+Ky9b+l5q9EIxBbJAYSA5uANQQDM0gDNLA39L5nzmnAIxBbJAY2ADm5vb3zM3t//FhllaEZhgGucT44CmwARgasGFGSxsMA2AugCs68ODhf2TgtGgpXI7dyQWnF1AMaDx4GMN2EBYMDsMeiOgGwAxBN0g6OQMjcLEa8ODDB7hByHKMZhYYAQnCGAag20w1A3h9A+BhAMJYDcCH8RlAMCEx1zXhNgAZgPyJC4uUVBI2AD2AiMHoBrxHV0AAvwcAkuYXI9ztKrsAAAAASUVORK5CYII=" InformativeScreenshot="1b1c542d16c5348fce75f2738651242c.jpg" Reference="lu6HTk2JCUOj--pHiQAikg/05MEKbkgZkK4dVqID8JRPQ" Selector="&lt;html app='chrome.exe' title='Advanced UI Automation Input Form' /&gt;" Title="Advanced UI Automation Input Form" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dURUExUkxKRk5PNDY0WUJaREhRS1Y2VFJTWC4u" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
