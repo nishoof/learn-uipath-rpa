@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K0dnT9uorkOLVbCviv-Ceg" Reference="aq8V2j-yvUuZ-XvZLncKyQ/Mg9FqDTBmkCVWMwx531nmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" CVScreenId="8d969fa0-dd5d-4491-9e34-d2734d177486" DesignTimeRectangle="643, 967, 316, 40" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='card-title activator' /&gt;" Guid="a2502c24-c113-409b-94f9-c443a0d1cd42" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8d969fa0-dd5d-4491-9e34-d2734d177486" CvTextArea="530, 221, 379, 37" CvTextArgument="Search for Movies" CvType="Text" DesignTimeRectangle="532, 217, 1376, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Search for Movies' check:innerText='Search for Movies' /&gt;" Guid="6f25a4f4-7bb3-4416-9f80-087c28fc38a0" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="8d969fa0-dd5d-4491-9e34-d2734d177486" CvElementArea="1218, 280, 122, 50" CvTextArea="1255, 295, 46, 17" CvTextArgument="FIND" CvType="Button" DesignTimeRectangle="1220, 281, 118, 45" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Find' tag='BUTTON' type='' class='uiColorSecondary btn btn-primary btn-lg' check:innerText='FIND' /&gt;" Guid="4c8c5998-48d3-424e-b4ca-84956f6504c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8590c4be8f4ae91b7b0ebb3f4be638e3.png" xmlns="">0tDxzkel35UCDGBzogDxmQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0is_LojHy0qEdg4bLXyhaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="629, 358, 344, 169" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='' /&gt;" Guid="1fa912d8-1029-43d1-bba0-efa8d1562d73" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c3d803e0-65d2-4dfa-ad39-7d2516847f7a" CvTextArea="530, 114, 379, 33" CvTextArgument="Search tor Movies" CvType="Text" DesignTimeRectangle="532, 107, 1376, 47" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Search for Movies' check:innerText='Search for Movies' /&gt;" Guid="3f8e0b75-f0a4-4a0f-8f1c-56e8120cdc6a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d480a96909e2ceb00ab9bbeedbf3f9f1.png" xmlns="">0Vx62mF5_RUCg9LyQbOcRIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

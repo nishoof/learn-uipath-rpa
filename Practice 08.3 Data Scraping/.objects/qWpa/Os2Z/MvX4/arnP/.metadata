@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Label 'Dashboard'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "arnPwC83uEmh2qLref89-g",
+  "Reference": "A2_m558Yu0KAc3MvZeDvZQ/arnPwC83uEmh2qLref89-g",
+  "ParentRef": "A2_m558Yu0KAc3MvZeDvZQ/MvX41y9OU0ahmdjn4Gb-5w",
+  "Created": "2025-07-08T17:13:39.0163509Z",
+  "Updated": "2025-07-08T17:13:39.0163509Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
