@@ -1,0 +1,32 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "EndIndex&Sequence_7",
+        "FollowingPeriodIndex&Sequence_7",
+        "FollowingCommaIndex&Sequence_7",
+        "Space&Sequence_2",
+        "InputStr&Sequence_1",
+        "AtIndex&Sequence_2",
+        "Part1&Sequence_2",
+        "PreviousSpaceIndex&Sequence_2",
+        "Part2&Sequence_2",
+        "FollowingSpaceIndex&Sequence_2",
+        "Email&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
