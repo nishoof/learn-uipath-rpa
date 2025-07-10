@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ACME System 1 - Work Items",
+  "Type": "App",
+  "Id": "-DLKrVYAmkaVy1th0R28tQ",
+  "Reference": "ODlrR7sEx0-8Nm1Y23uuvg/-DLKrVYAmkaVy1th0R28tQ",
+  "Created": "2025-07-10T18:52:55.8501148Z",
+  "Updated": "2025-07-10T18:52:55.8501148Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

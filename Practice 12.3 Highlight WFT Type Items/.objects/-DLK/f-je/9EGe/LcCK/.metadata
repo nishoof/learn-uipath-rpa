@@ -1,0 +1,17 @@
+﻿{
+  "Name": "WI",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LcCKY5QgPEK1io5IBHkPBQ",
+  "Reference": "ODlrR7sEx0-8Nm1Y23uuvg/LcCKY5QgPEK1io5IBHkPBQ",
+  "ParentRef": "ODlrR7sEx0-8Nm1Y23uuvg/9EGeozkZxEqZGZ-6cIfrOA",
+  "Created": "2025-07-10T18:53:56.2464359Z",
+  "Updated": "2025-07-10T18:55:41.6841912Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

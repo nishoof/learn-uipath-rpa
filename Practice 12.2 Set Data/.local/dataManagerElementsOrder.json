@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CompanyWorkers&Sequence_1",
+        "CompanyName&Sequence_4",
+        "RoleInCompany&Sequence_4",
+        "FullName&Sequence_4",
+        "Address&Sequence_4",
+        "Email&Sequence_4",
+        "PhoneNumber&Sequence_4",
+        "FirstName&Sequence_4",
+        "LastName&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
