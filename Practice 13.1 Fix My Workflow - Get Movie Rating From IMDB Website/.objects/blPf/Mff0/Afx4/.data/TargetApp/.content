@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="-9, -9, 1938, 1098" BrowserType="Edge" ContentHash="HM1eSk89n0u2NWKslIwVyg" Selector="&lt;html app='msedge.exe' title='IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp;amp; TV Shows'/&gt;" Url="https://www.imdb.com" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">03bz1jqe-90upQ4qTfmIo_w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="52bd1350a9c604590a49e78c88e0e36f.png" xmlns="">0W7jCrEVNK0ixwSeczqrHRA</imageRef>
+</TargetApp>

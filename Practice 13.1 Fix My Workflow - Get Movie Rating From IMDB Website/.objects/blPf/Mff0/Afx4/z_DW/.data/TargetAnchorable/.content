@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.imdb.com/title/tt0268380/?ref_=fn_all_ttl_1" ContentHash="_U4atev7y0Oh8LR4R452wQ" DesignTimeRectangle="1281, 710, 39, 30" ElementType="Text" FriendlyName="'7.5'" FullSelectorArgument="&lt;webctrl aaname='7.5' parentid='__next' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='7.5' parentid='__next' tag='SPAN' type='' check:text='7.5' /&gt;" Guid="516902cd-d723-4535-8d77-e3b15a67616e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Ice Age (2002) - IMDb' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1237, 685, 120, 20" ElementType="Text" FriendlyName="'IMDb RATING'" FullSelectorArgument="&lt;webctrl aaname='IMDb RATING' parentid='__next' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='IMDb RATING' parentid='__next' tag='DIV' type='' check:text='IMDb RATING' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1sNAsF1CsAkGi7xLnoWM6Tg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0IQ_dnbG2IUKMxLPXEawT6w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5adb26bab9df0d6360acd720db8eff47.png" xmlns="">0Crwv6I_F2U2Z2MUt5j8DAQ</imageRef>
+</TargetAnchorable>

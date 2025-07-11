@@ -1,0 +1,14 @@
+﻿{
+  "Id": "7Q1xTA8q5UygstXLDzPchw",
+  "Reference": "vcxFuyrpvkOS795gdf2CsA/7Q1xTA8q5UygstXLDzPchw",
+  "ParentRef": "vcxFuyrpvkOS795gdf2CsA/Afx4lxecTkWKaZRBbLFbAw",
+  "Name": "SearchBar",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2025-07-10T22:19:24.7509618Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2025-07-10T22:19:24.7509618Z"
+}

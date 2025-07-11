@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.imdb.com/" ContentHash="de8iVztzoES95eFl5O8vKA" DesignTimeRectangle="468, 212, 758, 39" ElementType="InputBox" FriendlyName="'INPUT suggestion-search'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="72adf4d3-2e1e-45a4-86cc-03624aabb906" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb: Ratings, Reviews, and Where to Watch the Best Movies &amp;amp; TV Shows' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1255, 218, 30, 30" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl aria-role='presentation' parentid='suggestion-search-button' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' parentid='suggestion-search-button' tag='svg' type='' aaname='' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1Tp0AfshLSEKQ_9S84cSAcA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0-Pm433TVD0KUs7ChsLHQCg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="24c3d557841d44bb0a046352ab17dada.png" xmlns="">0b5KCUulHrUukrN3f0JuIzg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,12 @@
+﻿{
+  "Id": "Mff0a_8lkkKZNnGOi3vUog",
+  "Reference": "vcxFuyrpvkOS795gdf2CsA/Mff0a_8lkkKZNnGOi3vUog",
+  "ParentRef": "vcxFuyrpvkOS795gdf2CsA/blPf-Br27ECs5pc57ADiag",
+  "Name": "1.0.0",
+  "Type": "AppVersion",
+  "Created": "2025-07-10T22:18:53.0071877Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2025-07-10T22:18:53.0071877Z"
+}

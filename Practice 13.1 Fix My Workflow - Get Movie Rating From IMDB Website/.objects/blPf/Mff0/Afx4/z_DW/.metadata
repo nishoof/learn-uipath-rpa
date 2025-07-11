@@ -1,0 +1,14 @@
+﻿{
+  "Id": "z_DW5Axsz02kg56AGiHkKg",
+  "Reference": "vcxFuyrpvkOS795gdf2CsA/z_DW5Axsz02kg56AGiHkKg",
+  "ParentRef": "vcxFuyrpvkOS795gdf2CsA/Afx4lxecTkWKaZRBbLFbAw",
+  "Name": "Movie Rating",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2025-07-10T22:21:10.1814783Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2025-07-10T22:21:10.1814783Z"
+}
