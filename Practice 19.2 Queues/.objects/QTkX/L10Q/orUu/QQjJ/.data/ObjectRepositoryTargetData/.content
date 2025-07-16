@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X1QSVlyMgku8TxMgA8P8Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/bank/account" CVScreenId="e8b56245-3b9d-444e-84a3-862c850faadc" CvElementArea="332, 494, 609, 47" CvType="InputBox" DesignTimeRectangle="334, 496, 606, 43" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='city-state-zip' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="3bf50900-a2ee-479d-bfe4-cafae8e6a52e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e8b56245-3b9d-444e-84a3-862c850faadc" CvTextArea="331, 467, 127, 21" CvTextArgument="City, State, Zip:" CvType="Text" DesignTimeRectangle="334, 465, 126, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='City, State, Zip:' tag='LABEL' type='' class='' check:innerText='City, State, Zip:' /&gt;" Guid="4d559248-4ed0-4983-b112-0486833587a4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5dbe3c7b1dc76305ab17fd7e3f04bf26.png" xmlns="">0OEvJAsRhgUKo-TWrRGJusw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

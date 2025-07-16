@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="42rhdQJocUO6eFHSi76HcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/bank/account" CVScreenId="7d1cfd0e-b9fd-4074-a6ad-9aa25ceebc8e" CvElementArea="332, 679, 609, 47" CvType="InputBox" DesignTimeRectangle="334, 681, 606, 43" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="93e787f5-cc6c-46c3-b6e9-122393af0386" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7d1cfd0e-b9fd-4074-a6ad-9aa25ceebc8e" CvTextArea="332, 652, 53, 17" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="334, 650, 52, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Email:' tag='LABEL' type='' class='' check:innerText='Email:' /&gt;" Guid="6ffd59c6-d142-4623-8814-865f55505304" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d8f2f567277999c8ad30539c81b98a8a.png" xmlns="">018Qv8fefxk2jtlTNJGGcqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

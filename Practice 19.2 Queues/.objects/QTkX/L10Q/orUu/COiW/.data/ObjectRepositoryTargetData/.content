@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="an8b9C5QOE-tSN2f22Bkmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/bank/account" CVScreenId="ef3c4f07-baae-4885-a375-33fa289e32f2" CvElementArea="332, 926, 134, 45" CvTextArea="346, 939, 102, 17" CvTextArgument="Add Account" CvType="Button" DesignTimeRectangle="334, 927, 130, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='buttonScoreCard' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Add Account' check:innerText='Add Account' /&gt;" Guid="c5313f21-a3a7-4072-b6c2-6f6f992a73e3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="802cea3c316478e991b1dfff519000dd.png" xmlns="">0m4l6z60C9EirHxfOqYaEKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
