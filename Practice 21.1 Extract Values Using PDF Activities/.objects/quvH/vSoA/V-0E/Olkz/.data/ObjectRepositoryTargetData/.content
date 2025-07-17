@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Rk___LUrtUSox3N71Cxzaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3551fd9b-f77b-4f40-adcd-9271e5e52292" CvTextArea="1385, 260, 55, 16" CvType="AnyWordGroup" DesignTimeRectangle="1385, 260, 55, 16" DesignTimeScaleFactor="1" ElementType="Text" Guid="db8585ce-4913-4479-ba0f-9068830102ed" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Invoice # 3 A.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3551fd9b-f77b-4f40-adcd-9271e5e52292" CvTextArea="1213, 260, 92, 14" CvTextArgument="Balance Due:" CvType="Text" DesignTimeRectangle="1213, 260, 92, 14" ElementType="Text" Guid="fea9afa9-67c6-4e93-8b01-d0d5774318f5" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4b5b20433e128d2bdb39d20f2fbed9be.png" xmlns="">0AUbv8netQ0KPyRyP3L4vTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Invoice-485744.pdf",
+  "Type": "Screen",
+  "Id": "mb9Lb0itwEyN34KKSpyD-w",
+  "Reference": "homgIxfZnEKve3TWaalfWg/mb9Lb0itwEyN34KKSpyD-w",
+  "ParentRef": "homgIxfZnEKve3TWaalfWg/DBieYm6QUUSovSJXozyx1Q",
+  "Created": "2025-07-17T19:25:30.9954623Z",
+  "Updated": "2025-07-17T19:25:30.9954623Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

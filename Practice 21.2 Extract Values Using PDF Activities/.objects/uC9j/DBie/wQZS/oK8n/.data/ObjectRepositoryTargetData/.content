@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TvHa-h1t-UWVL-qhMRnBBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="" CVScreenId="adf9a007-7486-4b3c-a70f-9ce080d453fa" CvTextArea="921, 217, 93, 23" CvType="AnyWordGroup" DesignTimeRectangle="717, 311, 645, 21" DesignTimeScaleFactor="1" ElementType="Text" Guid="3df0901a-9f75-4cd1-a496-8b8445ec4b84" ScopeSelectorArgument="&lt;html app='chrome.exe' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="adf9a007-7486-4b3c-a70f-9ce080d453fa" CvTextArea="772, 216, 143, 23" CvTextArgument="Invoice No." CvType="Text" DesignTimeRectangle="1291, 311, 71, 18" ElementType="Text" Guid="02267b7b-c9e0-44de-bd8b-80d6b0fa37b0" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d70b3a3e4c9bb931f923a496ece0e132.png" xmlns="">007lyaKWMsECeuhB62yfMVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

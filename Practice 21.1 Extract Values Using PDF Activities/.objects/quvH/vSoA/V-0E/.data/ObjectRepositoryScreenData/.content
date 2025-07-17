@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="3wgGblXMZkmbLwmxsJ8GRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1096" Arguments="[CurrentFile.FullName]" FilePath="C:\Program Files\Adobe\Acrobat DC\Acrobat\acrobat.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI5SURBVFhH1ZY9SBxBFIC3UVCUVfxBueDPISTG42xEWQVJoY2NFlYKdiGtxE5DCIgQDkKuMFUaEY6kSQhnE7A4O0E4sJLzKrHQK232dmeaF95bV2XequvccMHiY2/m3b73zczbZS0AsP4nbELaVpu0rQNpW1ADZ9K2VtXcUbAJKj7YcV7d/wuu6z6dywvw199fyc4G93ohbWqNxwTA+/WTJ34i1aNDkJ2NVWlbxw9JsAkUUJPpEkeCTZgUQB6T0Bbwv34OGq63GdzTEotzCeqJT2o9bQExmgTvxy5J+OtrLK7ibX85x6dDractIEf66CrGX4NYWWRxxuUFyar1tAXErANeNkNJcSfUeBRGBbzv30D2NIEY6max+zAqgI0XtwlDjApg44mlBRCTaRDzMywehVEBMdBBZ+8V9kEmWkC87KXGlIlWKiRmHPD2fpsX8Lc+UnI6/7lpEMmuoODwi9ujOC0FO5NOmhPAF4/obw+KToyAmBqlY8AnAXfBX30XSGHhyTT1hngzZkaAznpumlbmb34IOj+q8TCOvfF2mYTVuLYAzvkba/TCwd/4CKr/iYO2AO4AnfNQd+TK4qItYIrnL5BKpYhMJnMzdhwH8vk8i0VhRKBSqdA1HJfLZZII5x7CiAAWvCsQXkNwN9T7jArganO53M24WCzWdwfUMRYvFAosFkXNArUSWwA/ItWba4U+TGMK/BGvEqVq6YQl0QVzYU5pWztqPSZwLZFFW8Nk1Tr3CtQTNlFv/gE2WNSLPjNx6QAAAABJRU5ErkJggg==" Selector="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Invoice # 3 A.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" Title="Invoice # 3 A.pdf - Adobe Acrobat Reader (64-bit)" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="5d45b703a3654510d9099b229a61c6a0.png" xmlns="">0OAL2PzIoVESnVs1Kj2aqvw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

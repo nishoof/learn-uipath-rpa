@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Invoice-485744.pdf",
+  "Type": "Screen",
+  "Id": "YyEbsig8T0uF07oeM_Px6Q",
+  "Reference": "homgIxfZnEKve3TWaalfWg/YyEbsig8T0uF07oeM_Px6Q",
+  "ParentRef": "homgIxfZnEKve3TWaalfWg/MeBYKnoNI0K9srATQojNWw",
+  "Created": "2025-07-17T19:44:37.4202001Z",
+  "Updated": "2025-07-17T19:44:37.4202001Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

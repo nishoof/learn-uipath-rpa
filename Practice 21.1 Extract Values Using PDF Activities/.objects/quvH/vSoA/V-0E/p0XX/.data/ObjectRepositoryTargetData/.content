@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4xrKqmLMB0G0hLncnRC4Mw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="abdebebf-4471-4b40-8fc8-656ca35252ef" CvTextArea="1365, 231, 73, 15" CvType="AnyWordGroup" DesignTimeRectangle="1365, 231, 73, 15" DesignTimeScaleFactor="1" ElementType="Text" Guid="1a7aef04-cce8-4637-ba01-abfbc659b326" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='Invoice # 3 B.pdf - Adobe Acrobat Reader (64-bit)' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="abdebebf-4471-4b40-8fc8-656ca35252ef" CvTextArea="1273, 231, 31, 12" CvTextArgument="Date:" CvType="Text" DesignTimeRectangle="1273, 231, 31, 12" ElementType="Text" Guid="290092fc-4304-4641-8160-54f7ef1d2d54" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d1aac8a63acd012cd07538074a3037e3.png" xmlns="">0yr6SvJXCs0KgYlVS43pXpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

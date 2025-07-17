@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Subtotal 125178 USD Ta…",
+  "Type": "Element",
+  "Id": "piOT3Ik_L0mUC07oI615SA",
+  "Reference": "homgIxfZnEKve3TWaalfWg/piOT3Ik_L0mUC07oI615SA",
+  "ParentRef": "homgIxfZnEKve3TWaalfWg/wQZSZuD4ZEmsN-_Z8InLEw",
+  "Created": "2025-07-17T19:36:00.8628016Z",
+  "Updated": "2025-07-17T19:36:00.8628016Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

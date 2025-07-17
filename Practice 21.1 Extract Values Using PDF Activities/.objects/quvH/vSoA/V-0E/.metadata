@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Adobe",
+  "Type": "Screen",
+  "Id": "V-0Eiucfa0SAX7A6F-8Fyg",
+  "Reference": "5VLVRcG4SkW4eItvn9tCQg/V-0Eiucfa0SAX7A6F-8Fyg",
+  "ParentRef": "5VLVRcG4SkW4eItvn9tCQg/vSoAhbxm7k-kvs0Qu_Xz5g",
+  "Created": "2025-07-17T18:47:34.0729818Z",
+  "Updated": "2025-07-17T18:47:34.0729818Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
