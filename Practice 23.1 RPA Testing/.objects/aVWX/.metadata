@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome SHA1 online",
+  "Type": "App",
+  "Id": "aVWXhjHDZ0SR4hlKvkldrg",
+  "Reference": "gpdFP2f2S06Zfv5UKfe1jQ/aVWXhjHDZ0SR4hlKvkldrg",
+  "Created": "2025-07-17T22:41:15.312054Z",
+  "Updated": "2025-07-17T22:41:15.312054Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
